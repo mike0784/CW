@@ -1,0 +1,25 @@
+mike@mike:~/KP$ cat > file1
+собаки
+кошки
+хомяки
+mike@mike:~/KP$ cat > file2
+лошади
+верблюды
+ослы
+mike@mike:~/KP$ cat file1 file2 > file3
+mike@mike:~/KP$ cat file3
+собаки
+кошки
+хомяки
+лошади
+верблюды
+ослы
+mike@mike:~/KP$ mv file3 human_frends
+mike@mike:~/KP$ mkdir new_folder
+mike@mike:~/KP$ mv human_frends ./new_folder/
+mike@mike:~/KP$ sudo apt-key adv --keyserver pgp.mit.edu --recv-keys 3A79BD29
+mike@mike:~/KP$ sudo cat > /etc/apt/sources.list.d/mysql.list
+deb http://repo.mysql.com/apt/ubuntu/ bionic mysql-8.0
+root@mike:/home/mike/KP# apt install mysql-client
+mike@mike:~/KP$ sudo dpkg -i code_1.80.0-1688479026_amd64.deb
+mike@mike:~/KP$ sudo dpkg -r code
